@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">RetroRc</string>
+  <string name="title_activity_main">RetroRx</string>
+  <string name="title_activity_retrofit_rx">RetrofitRx</string>
+  <string name="title_get">GET</string>
+  <string name="title_post">Post</string>
+  <string name="title_multipart">MultiPart</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="username">User Name</string>
+  <string name="password">Password</string>
+  <string name="age">Age</string>
+  <string name="mobile">Mobile</string>
+  <string name="signup">Sign Up</string>
+  <string name="pick_and_upload">Pick and Upload</string>
+</resources>

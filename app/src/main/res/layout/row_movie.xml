@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/border_width"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.ganeshtikone.retrorc.extra.GTImageView
+            android:id="@+id/imageViewPoster"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewMovieTitle"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:text="Baghi 2"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
